@@ -1,0 +1,8 @@
+curl -X GET -G \
+  'https://api.foursquare.com/v2/venues/explore' \
+    -d client_id="SY5FYMVM5TOUXSQY0PEEJAZKXVYIC34PS3Z12Q2VNXVU4SPE" \
+    -d client_secret="GBHWTUP5ID11TVPL2PCSUYL0E4KSH1NWNQ1SMPZYDAEYXKR4" \
+    -d v="20180323" \
+    -d ll="39.903414,116.413788" \
+    -d query="pizza" \
+    -d limit=10
